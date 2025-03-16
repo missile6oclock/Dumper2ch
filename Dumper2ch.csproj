@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8-windows</TargetFramework>
+		<RootNamespace>Dumper2ch</RootNamespace>
+		<UseWindowsForms>true</UseWindowsForms>
+		<Version>1.0</Version>
+		<Authors>missile6oclock</Authors>
+
+		<PublishSingleFile>true</PublishSingleFile>
+		<PublishTrimmed>false</PublishTrimmed>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="HtmlAgilityPack" Version="1.12.0" />
+	</ItemGroup>
+
+</Project>
